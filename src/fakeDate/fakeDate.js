@@ -1,6 +1,6 @@
 
 const fakeData =[
-    {"key":"101" ,"name": "Child Support","pic":"childSupport.png"},
+    {"key":"101" ,name: "Child Support","pic":"childSupport.png"},
     {"key":"102" ,"name": "Refuge shelter","pic":"refuseShelter.png"},
     {"key":"103" ,"name": "Food Charity","pic":"foodCharity.png"},
     {"key":"104" ,"name": "Host a clothing swap","pic":"clothSwap.png"},
@@ -21,5 +21,7 @@ const fakeData =[
     {"key":"118" ,"name": "Collect stuffed animals","pic":"stuffedAnimals.png"},
     {"key":"119" ,"name": "Collect school supplies","pic":"schoolSuffiles.png"},
 ];
-
+// git remote add origin https://github.com/Jrprogrammertuhin/volunteer-network-website.git
+// git branch -M main
+// git push -u origin main
 export default fakeData;

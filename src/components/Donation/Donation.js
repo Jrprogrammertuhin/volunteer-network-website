@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Donation = () => {
+const Donation = (props) => {
+    console.log(props)
     return (
         <div>
             <h1>This is donation page </h1>

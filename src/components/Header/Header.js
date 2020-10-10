@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import { UserContext } from '../../App';
 
 const Header = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <div className="header">
             {/* <img src={} alt="" /> */}
@@ -10,7 +12,8 @@ const Header = () => {
                 <Link to="/home">Home</Link>
                 <Link to="/donation">Donation</Link>
                 <Link to="/events">Events</Link>
-                {/* <button onClick={() => setLoggedInUser({})}>Sign out</button> */}
+                <Link to="/register">Register</Link>
+                <button onClick={() => setLoggedInUser({})}>Sign out</button>
             </nav>
         </div>
     );
